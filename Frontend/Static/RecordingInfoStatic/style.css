@@ -1,0 +1,250 @@
+body {
+    background: #ecf0f3 !important;
+}
+
+a {
+    text-decoration: none;
+    /* Removes the underline */
+    color: inherit;
+    /* Inherits the color from the parent element */
+    cursor: pointer;
+    /* Changes the cursor to a pointer on hover */
+}
+
+.fileType {
+    display: none;
+}
+
+.btn-outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.btn-container {
+
+    display: flex;
+    width: 25vw;
+    height: 10vh;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+    border-radius: 5%;
+}
+
+.btn-meterials {
+    height: 100%;
+    width: 50%;
+    border: none;
+    box-shadow: inset -4px -4px 4px #cbced1,
+        inset 4px 4px -4px #ffffff;
+    border-radius: 5%;
+}
+
+.btn-meterials.active {
+    /* height: 100%;
+    width: 33.3%;
+    border: none; */
+    box-shadow: inset 4px 4px 4px #cbced1,
+        inset -4px -4px 4px #ffffff;
+    /* border-radius: 5%; */
+}
+
+.btn-meterials:hover {
+    box-shadow: inset 4px 4px 4px #cbced1,
+        inset -4px -4px 4px #ffffff;
+    color: #3498db;
+}
+
+.new-course-btn-container-info {
+    margin-top: 2%;
+    position: relative;
+}
+
+.new-course-btn-info {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    text-align: center;
+    background: #24cfaa !important;
+    box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px #ffffff !important;
+    transition: 0.5s;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+
+}
+
+.new-course-btn-info:hover {
+    background: #1b7763 !important;
+}
+
+.container-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon {
+    /* height: 15px;
+    width: 15px; */
+    margin-right: 5%;
+    /* position: relative; */
+}
+
+.icon svg {
+    height: 22px;
+    width: 22px;
+    /* position: absolute; */
+    /* right: 20%; */
+    /* bottom: 10%; */
+    /* bottom: 1%; */
+}
+
+
+.header-container-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* background: #000; */
+    height: 80px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecf0f3;
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+    border-radius: 15%;
+    letter-spacing: 0.5px;
+}
+
+.text-center {
+    text-align: center !important;
+    width: 100%;
+}
+
+.file-container {
+
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+
+}
+
+.file-card {
+    border-radius: 10%;
+    height: 15vh;
+    width: 45vw;
+    background: #ecf0f3;
+    box-shadow: inset -4px -4px 4px #cbced1,
+        inset 4px 4px 4px #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.file-card:hover {
+    box-shadow: inset 4px 4px 4px #cbced1,
+        inset -4px -4px 4px #ffffff;
+}
+
+.file-left-part {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 50%;
+    /* background: #ecf0f3;
+    box-shadow: inset -4px -4px 4px #cbced1,
+        inset 4px 4px 4px #ffffff; */
+    /* border-radius: 10%; */
+}
+
+.file-right-part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* background: #ecf0f3;
+    box-shadow: inset -4px -4px 4px #cbced1,
+        inset 4px 4px 4px #ffffff; */
+    /* border-radius: 10%; */
+}
+
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+}
+
+
+.file-icon {
+    height: 80%;
+    width: 30px;
+    margin: 3% 5% 2% 7%;
+}
+
+.file-icon svg {
+    height: 100%;
+    width: 100%;
+}
+
+.left-icons {
+    height: 50px;
+    width: 27px;
+    margin: 3% 5% 2% 5%;
+}
+
+.left-icons svg {
+    height: 80%;
+    width: 90%;
+}
+
+.file-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.file-name-date {
+    /* text-align: center; */
+    font-size: 17px;
+    /* max-width: 10ch; */
+    /* width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+
+}
+
+/* input[type="file"] {
+    width: 85%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    box-shadow: inset 4px 4px 4px #cbced1,
+        inset -4px -4px 4px #ffffff;
+} */
